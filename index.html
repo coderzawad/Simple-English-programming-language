@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SimpleEnglish Programming Language</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SimpleEnglish Programming Language</h1>
+    <p>Write programs using simple English! Try the examples below or create your own programs.</p>
+
+    <div class="container">
+        <div class="editor">
+            <h2>Code Editor</h2>
+            <textarea id="code">create number called firstNumber with value 10
+create number called secondNumber with value 5
+
+print "Basic Calculator"
+print "First number:" and firstNumber
+print "Second number:" and secondNumber
+
+add value secondNumber to firstNumber
+print "After adding:" and firstNumber
+
+subtract 3 from firstNumber
+print "After subtracting 3:" and firstNumber
+
+multiply firstNumber by 2
+print "After multiplying by 2:" and firstNumber
+
+divide firstNumber by 4
+print "After dividing by 4:" and firstNumber</textarea>
+            <button onclick="runCode()">Run Code</button>
+        </div>
+        <div class="output">
+            <h2>Output</h2>
+            <div id="output" class="output-content"></div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="interpreter.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
